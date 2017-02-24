@@ -23,7 +23,7 @@ import com.uat.util.Xls_Reader;
  */
 public class VerifyLoginFucntionality
 {
-	public Xls_Reader userXls= new Xls_Reader(System.getProperty("user.dir")+"\\src\\com\\uat\\xls\\UAT Users_Click2Cloud.xlsx");
+	public Xls_Reader userXls= new Xls_Reader(System.getProperty("user.dir")+"\\src\\com\\uat\\xls\\UAT Users_Click2Cloud12345.xlsx");
 	public static WebDriver driver = null;
 	
 	@Test(dataProvider="getTestData")
